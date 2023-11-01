@@ -27,7 +27,8 @@ Terceiro projeto criado no Sprint 3 do bootcamp de desenvolvimento web da Triple
 
 Algumas melhorias que podem ser aplicadas:
 
-- Background no menu fixo ao rolar a página
+- Deixar menu fixo ao rolar
+- Alterar background no menu fixo ao rolar a página
 - Alteração da cor dos links do menu ao rolar a página
 - Links âncora do menu rolar até a sessão de forma suave ao clicar
 - Animação em alguns elementos da página para deixar mais dinâmico e interativo
