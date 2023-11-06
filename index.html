@@ -104,7 +104,70 @@
             </li>
           </ul>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                <span class="form__label-text">Nome *</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Nome"
+                  class="form__input"
+                  required
+                />
+              </label>
+
+              <label class="form__label">
+                <span class="form__label-text">Número de convidados *</span>
+                <input
+                  type="number"
+                  name="guests"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  class="form__input"
+                  required
+                />
+              </label>
+
+              <label class="form__label">
+                <span class="form__label-text">Data & hora *</span>
+                <input
+                  type="datetime-local"
+                  name="date"
+                  class="form__input"
+                  required
+                />
+              </label>
+
+              <label class="form__label">
+                <span class="form__label-text">Seu e-mail *</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="email@email.com"
+                  class="form__input"
+                  required
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Reservar uma mesa</button>
+            <label class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__input form__input_type_checkbox"
+              />
+              <span
+                class="form__input-mod form__input-mod_type_checkbox"
+              ></span>
+              <span class="form__label-text form__label-text_type_checkbox"
+                >Eu concordo com os termos de uso</span
+              >
+            </label>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="about" class="about"></section>
       </main>
