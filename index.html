@@ -11,7 +11,6 @@
     <meta name="keywords" content="desenvolvimento web, café, tripleten" />
     <meta name="author" content="Herison Pereira" />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -168,11 +167,167 @@
             </label>
           </form>
         </section>
-        <section id="menu" class="menu"></section>
-        <section id="about" class="about"></section>
+        <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            Preparamos café a partir de grãos torrados localmente com
+            certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
+            chás da nossa coleção custam US$ 2/xícara.
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filtro</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Normal (350 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Grande (470 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Extra grande (590 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,5</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">
+                    Tamanho do copo (700 ml descafeinado)
+                  </p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Café Gelado (470 ml)</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,25</p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Expresso</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Macchiato</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Cortado</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2,25</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Mocha</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">
+                    Nascer do sol na Área da Baía (descafeinado)
+                  </p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$10</p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Produtos de Padaria</h3>
+
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <p class="card__menu-item">Croissant de Amêndoa</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Pão de Banana</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$1,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Torta de Limão</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Bolo Veludo Azul</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$3,75</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Cookie Web</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$2</p>
+                </li>
+                <li class="card__list-item">
+                  <p class="card__menu-item">Baguete Fresco</p>
+                  <span class="card__list-divider"></span>
+                  <p class="card__menu-price">$0,25</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">Sobre a cafeteria</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na Biblioteca Triple Peaks. Possui 6
+              mesas e Wi-Fi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nossa principal missão é manter nossos hóspedes confortáveis e
+              energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental para não
+              vendermos copos descartáveis. Mas você pode comprar um de nossos
+              copos reutilizáveis!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo Triple Expresso"
+          />
+          <div>
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="/images/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="icone redondo e branco do Facebook"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="/images/instagram_white.svg"
+                  class="footer__social-icon"
+                  alt="icone redondo e branco do Instagram"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Herison Pereira</p>
+      </footer>
     </div>
   </body>
 </html>
